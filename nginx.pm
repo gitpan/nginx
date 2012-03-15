@@ -6,11 +6,12 @@
 #	Сайт: http://xyberry.com						#
 #	Email: aleksey@xyberry.com						#							
 #################################################################################
-package      cPanel::nginx;
+package      cPanel::3rdparty::nginx;
 require      Exporter;
 
 our @ISA       = qw(Exporter);
 our @EXPORT    = qw(getcPanelXMLAPIResponse);
+$VERSION = "0.01"
 use strict;
 use warnings;
 use LWP::UserAgent;
